@@ -9,7 +9,9 @@ const MealItemForm = (props) => {
   const addItemToCart = (event) => {
     event.preventDefault();
     const quantity = document.getElementById("amount_" + props.id).value;
-    cartCtx.addItem({...props.item, quantity: quantity});
+    cartCtx.addItem({ ...props.item, quantity: quantity, id:"amount_" + props.id});
+    const cartPrice = props.item.price * quantity;
+    cartCtx.updateTotalAmount(cartPrice);
   };
   return (
     <form className={classes.form}>
