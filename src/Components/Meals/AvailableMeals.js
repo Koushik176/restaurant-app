@@ -6,27 +6,29 @@ import MealItem from "./MealItem/MealItem";
 const DUMMY_MEALS = [
   {
     id: "m1",
-    name: "Sushi",
-    description: "Finest fish and veggies",
-    price: 22.99,
+    name: "Tandoori Chicken Biryani",
+    description: "special combination of maratha and hyderabadi style Biryani",
+    price: 250.0,
   },
   {
     id: "m2",
-    name: "Schnitzel",
-    description: "A german specialty!",
-    price: 16.5,
+    name: "Chicken Kabab",
+    description: "Chicken finely fried in Oil with great flavour!",
+    price: 150.0,
   },
   {
     id: "m3",
-    name: "Barbecue Burger",
-    description: "American, raw, meaty",
-    price: 12.99,
+    name: "Gobi Manchurian",
+    description:
+      "Deep-fried, crispy cauliflower florets tossed in a thick and spicy Manchurian gravy",
+    price: 120.0,
   },
   {
     id: "m4",
-    name: "Green Bowl",
-    description: "Healthy...and green...",
-    price: 18.99,
+    name: "Egg Fried Rice",
+    description:
+      "Simple, aromatic, and healthy meal of scrambled eggs stir fried with rice",
+    price: 120.0,
   },
 ];
 
